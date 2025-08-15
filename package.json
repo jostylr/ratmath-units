@@ -1,0 +1,34 @@
+{
+  "name": "ratmath-units",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Unit-augmented rational math library (TypeScript, Bun tests, ESM)",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist",
+    "test": "bun test"
+  },
+  "engines": {
+    "bun": ">=1.0.0",
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "units",
+    "rational",
+    "math",
+    "typescript",
+    "bun",
+    "esm"
+  ]
+}
+
