@@ -8,7 +8,6 @@
 
 # Node/Bun/TypeScript
 node_modules/
-bun.lockb
 dist/
 coverage/
 *.tsbuildinfo
